@@ -1,4 +1,4 @@
-export const projects = [
+ const projects = [
   {
     name: "Test Project", // project title
     image:
@@ -14,3 +14,7 @@ export const projects = [
     link: "https://github.com/FurSofa/Portfolio", // link to site/repo
   },
 ];
+
+// module.exports =  projects
+// export default projects
+// export  {projects}
