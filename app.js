@@ -2,7 +2,7 @@
 // import projects from "./projectsData"
 
 function generateProjectCards(projectsArray) {
-    console.log('ini projects cards');
+  console.log("ini projects cards");
   // get repos from github
   // destructure into
 
@@ -28,23 +28,25 @@ function generateProjectCards(projectsArray) {
       .createElement("a")
       .setAttribute("class", "projectLink");
 
-    projectName.innerHTML = name;
-    projectName.innerHTML = image;
-    projectName.innerHTML = info;
-    projectName.innerHTML = link;
+    console.log(projectsContainer);
 
-    projectCard.appendChild(projectImage);
-    projectCard.appendChild(projectName);
-    projectCard.appendChild(projectInfo);
-    projectCard.appendChild(projectLink);
-    projectsContainer.appendChild(projectCard);
+    projectsContainer.appendChild(document.createTextNode(projectCard));
+    projectCard.appendChild(document.createTextNode(projectImage));
+    projectCard.appendChild(document.createTextNode(projectName));
+    projectCard.appendChild(document.createTextNode(projectInfo));
+    projectCard.appendChild(document.createTextNode(projectLink));
+
+    projectName.innerHTML = name;
+    projectImage.innerHTML = image;
+    projectInfo.innerHTML = info;
+    projectLink.innerHTML = link;
   });
-  console.log('complete projects cards');
+  console.log("complete projects cards");
 }
 function main() {
-    console.log('init');
+  console.log("init");
   generateProjectCards(projects);
-  console.log('complete');
+  console.log("complete");
 }
 
 main();

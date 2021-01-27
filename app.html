@@ -78,14 +78,19 @@
         <!-- TODO: create project card from JS -->
         <!-- TODO: import projects from github -->
         <!-- project section contains all cards -->
-        <section id='projects-container'>
-          <div class='card'>
-            <img src="" alt="">    <!-- project image -->
-            <h4></h4>              <!-- project name -->
-            <p></p>                <!-- info about project -->
-            <a href="http://"></a> <!-- link to project -->
-          </div>
-        </section>
+        <section id="projects-container"></section>
+
+        <div class="card">
+          <img width='50'src="https://static.thenounproject.com/png/1571-200.png" alt="testImg" />
+
+          <h4>test</h4>
+
+          <p>info about project</p>
+
+          <a href="http://">website</a>
+
+        </div>
+
         <!-- <div class="group">
           <div class="item-double">
             <img
@@ -108,35 +113,50 @@
         </div> -->
       </section>
     </main>
-     <!-- Contact -->
-  <footer>
-    <!-- Added footer tag for better code organization. -->
-    <section>
-      <!-- TODO: make standard size across all screen sizes -->
-      <h2>Contact</h2>
-      <div class="group">
-        <div class="item">
-          <form action="https://formspree.io/f/xwkwyzeb" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" name="name"value="Name">
-            <label for="user-email">Email:</label>
-            <input type="email" name="_replyto"value="Email@gmail.com">
-            <label for="user-message">Message:</label>
-            <textarea id="message" name="message"value=""></textarea>
-            <input type="submit" value="Send">
-          </form>
+    <!-- Contact -->
+    <footer>
+      <!-- Added footer tag for better code organization. -->
+      <section>
+        <!-- TODO: make standard size across all screen sizes -->
+        <h2>Contact</h2>
+        <div class="group">
+          <div class="item">
+            <form action="https://formspree.io/f/xwkwyzeb" method="POST">
+              <label for="name">Name:</label>
+              <input type="text" name="name" value="Name" />
+              <label for="user-email">Email:</label>
+              <input type="email" name="_replyto" value="Email@gmail.com" />
+              <label for="user-message">Message:</label>
+              <textarea id="message" name="message" value=""></textarea>
+              <input type="submit" value="Send" />
+            </form>
+          </div>
+          <!-- TODO: prevent mutliple submitions -->
+          <!-- TODO: prevent empty submitions -->
+          <div class="item item-double">
+            <p>Email: <a href="email" target="_blank">Email</a></p>
+            <p>
+              <a href="https://github.com/fursofa" target="_blank"> Github </a>
+            </p>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/cary-landers/"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </p>
+            <p>
+              <a
+                href="https://www.google.com/maps/place/Bucks+County"
+                target="_blank"
+                >Philadelpha, PA</a
+              >
+            </p>
+          </div>
         </div>
-<!-- TODO: prevent mutliple submitions -->
-<!-- TODO: prevent empty submitions -->
-        <div class="item item-double">
-          <p>Email: <a href="email" target="_blank">Email</a></p>
-          <p> <a href="https://github.com/fursofa" target="_blank"> Github </a> </p>
-          <p> <a href="https://www.linkedin.com/in/cary-landers/" target="_blank"> LinkedIn </a> </p>
-          <p><a href='https://www.google.com/maps/place/Bucks+County' target='_blank'>Philadelpha, PA</a></p>
-        </div> 
-      </div>
-    </section>
-  </footer>
+      </section>
+    </footer>
     <!-- Added closing main tag-->
     <script src="projectsData.js"></script>
     <script src="app.js"></script>

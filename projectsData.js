@@ -13,8 +13,11 @@
     info: "This is how qualified works, sometimes", // info about project
     link: "https://github.com/FurSofa/Portfolio", // link to site/repo
   },
+  {
+    name: "Test Project 2", // project title
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbOqOFAh72go1adEUTZEb0FqCvVXepDjWVQQ&usqp=CAU", // src/ alt value
+    info: "This is how qualified works, sometimes", // info about project
+    link: "https://github.com/FurSofa/Portfolio", // link to site/repo
+  },
 ];
-
-// module.exports =  projects
-// export default projects
-// export  {projects}

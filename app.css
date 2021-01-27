@@ -172,6 +172,14 @@ img.image-enhanced {
     flex-direction: row;
   }
 }
+/* portfolio projects */
+.card{
+  border-style: 10px solid black;
+  border: black;
+  background-color: brown;
+
+}
+
 
 /* Contact Style */
 
