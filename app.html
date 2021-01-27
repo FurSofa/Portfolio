@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Cary Landers | Software Engineer</title>
+
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Cary Landers</h1>
+      <nav>
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--Introduction -->
+      <section>
+        <div class="group">
+          <div class="item">
+            <img
+              src="./images/profile.png"
+              alt="Jenny profile picture"
+              class="image-enhanced"
+            />
+          </div>
+          <div class="item" id="Home">
+            <h1>Hello I'm Cary!</h1>
+            <p>
+              intro: Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Cumque, asperiores neque ad odio vero, repellat est nihil quia
+              sequi praesentium ex quod minima. Qui asperiores cum modi dolor
+              quod voluptate?
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- About me -->
+      <section class="dark-background">
+        <h2>About me</h2>
+        <div class="group">
+          <div class="item item-double">
+            <p>
+              I'm a very determined individual with a drive of succeeding in all
+              aspects life. I enjoy helping others and expanding skillsets. I'm
+              located oustide Philadelpha,PA and I'm currently a student in
+              Thinkful's Engineering Immersion course.
+            </p>
+            <p>
+              I am currently able to work within
+              <b>JavaScript, HTML & CSS, Python, and VBA</b>.
+            </p>
+            <p>
+              When I'm not in the Programming world, my passions extend
+              exploring the world and playing games. I enjoy both board games
+              and video games. I also lead an adventure Meetup.com Group for
+              adults in my region!
+            </p>
+          </div>
+          <div class="item">
+            <img
+              src="https://images.pexels.com/photos/1271620/pexels-photo-1271620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="Wilderness"
+              class="image-enhanced"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio -->
+      <section>
+        <h2>Portfolio</h2>
+        <!-- TODO: create project card from JS -->
+        <!-- TODO: import projects from github -->
+        <!-- project section contains all cards -->
+        <section id='projects-container'>
+          <div class='card'>
+            <img src="" alt="">    <!-- project image -->
+            <h4></h4>              <!-- project name -->
+            <p></p>                <!-- info about project -->
+            <a href="http://"></a> <!-- link to project -->
+          </div>
+        </section>
+        <!-- <div class="group">
+          <div class="item-double">
+            <img
+              src="https://images.pexels.com/photos/1565245/pexels-photo-1565245.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+              alt="http://centralstatespainclinic.com/wp-content/uploads/2018/08/coming-soon.png"
+              class="image-enhanced"
+            />
+            <h3>Local Public Library</h3>
+            <p>
+              One of the first projects for the Thinkful course was to help
+              develop a local public library's website.
+            </p>
+            <p>What's it do: <p class=""></p></p>
+            <p>Who it's for: <p class=""></p></p>
+            <p>Why we built it: <p class=""></p></p>
+            <p>Skills used: <p class="skills-used"></p></p>
+            <p>Website: <p class="url-link"></p> </p>
+            <p>GirHub:  <p class="github-link"></p></p>
+          </div>
+        </div> -->
+      </section>
+    </main>
+     <!-- Contact -->
+  <footer>
+    <!-- Added footer tag for better code organization. -->
+    <section>
+      <!-- TODO: make standard size across all screen sizes -->
+      <h2>Contact</h2>
+      <div class="group">
+        <div class="item">
+          <form action="https://formspree.io/f/xwkwyzeb" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" name="name"value="Name">
+            <label for="user-email">Email:</label>
+            <input type="email" name="_replyto"value="Email@gmail.com">
+            <label for="user-message">Message:</label>
+            <textarea id="message" name="message"value=""></textarea>
+            <input type="submit" value="Send">
+          </form>
+        </div>
+<!-- TODO: prevent mutliple submitions -->
+<!-- TODO: prevent empty submitions -->
+        <div class="item item-double">
+          <p>Email: <a href="email" target="_blank">Email</a></p>
+          <p> <a href="https://github.com/fursofa" target="_blank"> Github </a> </p>
+          <p> <a href="https://www.linkedin.com/in/cary-landers/" target="_blank"> LinkedIn </a> </p>
+          <p><a href='https://www.google.com/maps/place/Bucks+County' target='_blank'>Philadelpha, PA</a></p>
+        </div> 
+      </div>
+    </section>
+  </footer>
+    <!-- Added closing main tag-->
+    <script src="app.js"></script>
+  </body>
+</html>

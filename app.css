@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  /* background-image: url(images/backgrounds/subtle_white_mini_waves.jpg); */
+}
+
+header {
+  background-color: darkcyan;
+  /* background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg); */
+  margin-bottom: 40px;
+}
+.logo {
+  font-family: monospace;
+  font-size: 72px;
+  color: rgb(30, 82, 82);
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+/* ---  Navigation --- */
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: monospace;
+}
+
+header nav ul li a:hover {
+  color: blue;
+}
+
+@media all and (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin: 12px 0 12px 20px;
+    padding-top: 0;
+    font-size: 38px;
+  }
+
+  header nav {
+    margin-top: 12px;
+  }
+}
+/* ---   Groups --- */
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+section.dark-background {
+  background-color:darkcyan;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 80px 0;
+}
+
+footer {
+  background-color: rgb(46, 145, 145);
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+/* ---  fonts --- */
+
+h1 {
+  font-size: 28px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  color: #403933;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+main a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+main a:link {
+  color: #38786a;
+}
+main a:visited {
+  color: #38786a;
+}
+main a:hover {
+  color: #403933;
+}
+a:active {
+  color: #403933;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+main img {
+  width: 100%;
+}
+
+img.image-enhanced {
+  border-radius: 10px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
+/* Contact Style */
+
+form {
+  padding-right: 8px;
+}
+
+form label {
+  display: block;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
