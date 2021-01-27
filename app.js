@@ -1,4 +1,4 @@
-import projects from "./projectsData";
+const projects = require("./projectsData")
 
 function generateProjectCards(projectsArray) {
     console.log('ini projects cards');
