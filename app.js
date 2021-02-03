@@ -49,4 +49,3 @@ function main() {
   console.log("complete");
 }
 
-main();

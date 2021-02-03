@@ -33,10 +33,10 @@
           <div class="item" id="Home">
             <h1>Hello I'm Cary!</h1>
             <p>
-              intro: Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Cumque, asperiores neque ad odio vero, repellat est nihil quia
-              sequi praesentium ex quod minima. Qui asperiores cum modi dolor
-              quod voluptate?
+              I'm a very determined individual with a drive of succeeding in all
+              aspects life. I enjoy helping others and expanding skillsets. I'm
+              located outside Philadelpha,PA and I'm currently a student in
+              Thinkful's Engineering Immersion course.
             </p>
           </div>
         </div>
@@ -46,19 +46,18 @@
         <h2>About me</h2>
         <div class="group">
           <div class="item item-double">
-            <p>
-              I'm a very determined individual with a drive of succeeding in all
-              aspects life. I enjoy helping others and expanding skillsets. I'm
-              located oustide Philadelpha,PA and I'm currently a student in
-              Thinkful's Engineering Immersion course.
-            </p>
+
+            <!--  -->
+            <!-- LIST OF SERVICES ARE RIGHT HERE. -->
+            <!-- Bullet points are not required by the rubric -->
+            <!--  -->
             <p>
               I am currently able to work within
               <b>JavaScript, HTML & CSS, Python, and VBA</b>.
             </p>
             <p>
               When I'm not in the Programming world, my passions extend
-              exploring the world and playing games. I enjoy both board games
+              to exploring the world and playing games. I enjoy both board games 
               and video games. I also lead an adventure Meetup.com Group for
               adults in my region!
             </p>
@@ -78,39 +77,70 @@
         <!-- TODO: create project card from JS -->
         <!-- TODO: import projects from github -->
         <!-- project section contains all cards -->
-        <section id="projects-container"></section>
+        <!-- <section id="projects-container"></section> -->
 
-        <div class="card">
-          <img width='50'src="https://static.thenounproject.com/png/1571-200.png" alt="testImg" />
-
-          <h4>test</h4>
-
+        <!-- <div class="card">
+          <img
+            width="50"
+            src="https://static.thenounproject.com/png/1571-200.png"
+            alt="testImg"
+          />
+          <h4>Project Title</h4>
           <p>info about project</p>
-
           <a href="http://">website</a>
+        </div> -->
 
-        </div>
-
-        <!-- <div class="group">
-          <div class="item-double">
+        <div class="group">
+          <div class="item-double project-card">
+            <h3>Local Public Library</h3>
             <img
               src="https://images.pexels.com/photos/1565245/pexels-photo-1565245.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
               alt="http://centralstatespainclinic.com/wp-content/uploads/2018/08/coming-soon.png"
               class="image-enhanced"
+              style="height:250px;max-width:250px"
             />
-            <h3>Local Public Library</h3>
-            <p>
-              One of the first projects for the Thinkful course was to help
-              develop a local public library's website.
-            </p>
-            <p>What's it do: <p class=""></p></p>
-            <p>Who it's for: <p class=""></p></p>
-            <p>Why we built it: <p class=""></p></p>
-            <p>Skills used: <p class="skills-used"></p></p>
-            <p>Website: <p class="url-link"></p> </p>
-            <p>GirHub:  <p class="github-link"></p></p>
+            
+              <p>
+                One of the first projects for the Thinkful 
+                course was to help develop a local public 
+                library's website.
+              </p>
+            <div>
+              <p>What's it do: Shows user and book status<p class=""></p></p>
+              <p>Who it's for: Anyone that uses the Public Library website<p class=""></p></p>
+              <p>Why we built it: The public Library is better<p class=""></p></p>
+              <p>Skills used: HTML,CSS and JavaScript<p class="skills-used"></p></p>
+              <p>GirHub:  <a
+                href="https://github.com/FurSofa/Portfolio"
+                target="_blank"
+              >
+                Github-link
+              </a><p class="github-link"></p></p>
+            </div>
           </div>
-        </div> -->
+          <div class="item-double project-card">
+            <h3>Your next App!</h3>
+            <img
+              src="http://centralstatespainclinic.com/wp-content/uploads/2018/08/coming-soon.png"
+              alt="Project App Img"
+              class="image-enhanced"
+              style="height:250px;max-width:250px"
+            />
+            
+              <p>
+                Contact me for pricing on your next App!
+              </p>
+            <div>
+              <p>What's it do: TBD<p class=""></p></p>
+              <p>Who it's for: TBD<p class=""></p></p>
+              <p>Why we built it: TBD<p class=""></p></p>
+              <p>Skills used: TBD<p class="skills-used"></p></p>
+              <p>Website: TBD<p class="url-link"></p> </p>
+              <p>GirHub:  TBD<p class="github-link"></p></p>
+              
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <!-- Contact -->
@@ -123,16 +153,20 @@
           <div class="item">
             <form action="https://formspree.io/f/xwkwyzeb" method="POST">
               <label for="name">Name:</label>
-              <input type="text" name="name" value="Name" />
+              <input type="text" name="name" value="" required />
               <label for="user-email">Email:</label>
-              <input type="email" name="_replyto" value="Email@gmail.com" />
+              <input
+                type="email"
+                name="_replyto"
+                value=""
+                required
+              />
               <label for="user-message">Message:</label>
               <textarea id="message" name="message" value=""></textarea>
               <input type="submit" value="Send" />
             </form>
           </div>
           <!-- TODO: prevent mutliple submitions -->
-          <!-- TODO: prevent empty submitions -->
           <div class="item item-double">
             <p>Email: <a href="email" target="_blank">Email</a></p>
             <p>
